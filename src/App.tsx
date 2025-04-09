@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, GraduationCap, Briefcase, Languages, Code2, Menu, X } from 'lucide-react';
 import { Link } from 'react-scroll';
+import fotoLinkedin from './assets/foto_linkedin.png';
+import logoPortfolio from './assets/logo-portfolio.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -89,7 +91,7 @@ function App() {
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full blur-md group-hover:blur-lg transition-all duration-300"></div>
                   <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden border-4 border-gray-800 hover:scale-105 transition-transform duration-300">
                     <img 
-                      src="src/assets/foto_linkedin(1).png" 
+                      src={fotoLinkedin} 
                       alt="Imagem 1" 
                       className="w-full h-full object-cover"
                     />
@@ -101,7 +103,7 @@ function App() {
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full blur-md group-hover:blur-lg transition-all duration-300"></div>
                   <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-800 hover:scale-105 transition-transform duration-300">
                     <img 
-                      src="src/assets/logo-portfolio.png" 
+                      src={logoPortfolio} 
                       alt="Imagem 2" 
                       className="w-full h-full object-cover"
                     />
