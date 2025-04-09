@@ -89,7 +89,7 @@ function App() {
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full blur-md group-hover:blur-lg transition-all duration-300"></div>
                   <div className="relative w-100 h-100 md:w-100 md:h-100 rounded-full overflow-hidden border-4 border-gray-800 hover:scale-105 transition-transform duration-300">
                     <img 
-                      src="./assets/foto_linkedin(1).png" 
+                      src="src/assets/foto_linkedin(1).png" 
                       alt="Imagem 1" 
                       className="w-full h-full object-cover"
                     />
@@ -101,7 +101,7 @@ function App() {
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-blue-600 rounded-full blur-md group-hover:blur-lg transition-all duration-300"></div>
                   <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-gray-800 hover:scale-105 transition-transform duration-300">
                     <img 
-                      src="./assets/logo-portfolio.png" 
+                      src="src/assets/logo-portfolio.png" 
                       alt="Imagem 2" 
                       className="w-full h-full object-cover"
                     />
